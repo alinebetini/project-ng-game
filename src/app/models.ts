@@ -3,6 +3,7 @@ export interface Game {
     name: string;
     released: string;
     metacritic_url: string;
+    id: string;
     website: string;
     description: string;
     metacritic: number;
@@ -25,6 +26,7 @@ export interface Game {
   interface ParentPlatform {
     platform: {
       name: string;
+      slug: string;
     };
   }
   

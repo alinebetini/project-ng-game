@@ -17,13 +17,17 @@ import { SerachBarComponent } from './components/serach-bar/serach-bar.component
 import { HomeComponent } from './components/home/home.component';
 import { HttpHeadersInterceptor } from './interceptors/http-headers.interceptor';
 import { HttpErrorsInterceptor } from './interceptors/http-errors.interceptor';
+import { DetailsComponent } from './components/details/details.component';
+import { GameTabsComponent } from './game-tabs/game-tabs.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     SerachBarComponent,
-    HomeComponent
+    HomeComponent,
+    DetailsComponent,
+    GameTabsComponent
   ],
   imports: [
 BrowserModule,
